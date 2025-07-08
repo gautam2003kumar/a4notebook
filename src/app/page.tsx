@@ -1,12 +1,14 @@
-const Home = () => {
+import A4Page from "@/components/Canvas/A4Page";
 
-    return (
-        <div className="flex justify-center items-center min-h-screen">
-            <h1 className="text-4xl font-bold text-blue-600">
-                Tailwind CSS is working!
-            </h1>
-        </div>
-    );
+const Home = () => {
+  return(
+    <main>
+      <h1 className="text-3xl font-bold text-center mb-4">
+        A4 Notebook - A React App for A4 Page Design
+      </h1>
+      <A4Page />
+    </main>
+  )
 }
 
 export default Home;
